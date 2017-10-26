@@ -97,11 +97,12 @@ var nemesisUI = {type:'wrapper', id:'wpr_viewport', version:'row', flex:'h', arr
 			//Left Columns & Elbow
             {type:'wrapper', version:'column', flex:'v', children:[
                 {type:'elbow', version:'top-left', color:LCARS.colorGen(uiColors), class:'step-three'},
-                {type:'button', color:LCARS.colorGen(uiColors), label:"Lights"},
-                {type:'button', color:LCARS.colorGen(uiColors), label:"Temperature"},
-                {type:'button', color:LCARS.colorGen(uiColors), label:"Humidity"},
-                {type:'button', color:LCARS.colorGen(uiColors), label:"Batteries"},
-                {type:'button', color:LCARS.colorGen(uiColors), label:"Doors"},
+				{type:'lcarsmenu', template:lcarsmenu},
+                //{type:'button', color:LCARS.colorGen(uiColors), label:"Lights"},
+                //{type:'button', color:LCARS.colorGen(uiColors), label:"Temperature"},
+                //{type:'button', color:LCARS.colorGen(uiColors), label:"Humidity"},
+                ////{type:'button', color:LCARS.colorGen(uiColors), label:"Batteries"},
+                //{type:'button', color:LCARS.colorGen(uiColors), label:"Doors"},
                 {type:'button', color:LCARS.colorGen(uiColors), flexC:'v'}
             ]},
 
